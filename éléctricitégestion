@@ -1,0 +1,36 @@
+{
+  "maisons": [
+    {
+      "nom": "Maison 1",
+      "regles": {
+        "eclairage": "LED + détecteurs",
+        "appareils": "utilisation en heures creuses",
+        "climatisation": "max 24°C"
+      }
+    },
+    {
+      "nom": "Maison 2",
+      "regles": {
+        "eclairage": "LED + détecteurs",
+        "chauffage": "max 20°C",
+        "surveillance": "compteur connecté"
+      }
+    }
+  ],
+  "societes": [
+    {
+      "nom": "Entreprise A",
+      "regles": {
+        "equipements": "extinction auto après 20h",
+        "production": "planifiée en heures creuses",
+        "suivi": "tableau de bord énergétique"
+      }
+    }
+  ],
+  "transversal": {
+    "energies": "priorité solaire",
+    "stockage": "batteries/cuves tampon",
+    "alertes": "dépassement seuil +20%",
+    "objectifs": "limite mensuelle kWh"
+  }
+}
