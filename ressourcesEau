@@ -1,0 +1,30 @@
+{
+  "ressource": "eau",
+  "mesures": {
+    "volume": {
+      "valeur": 6,
+      "unite": "m3"
+    },
+    "masse": {
+      "valeur": 6000,
+      "unite": "kg",
+      "calcul": "volume * densite"
+    },
+    "temperature_locale": {
+      "valeur": 28,
+      "unite": "°C",
+      "source": "capteur_temperature"
+    }
+  },
+  "cuve_tampon": {
+    "capacite_totale": 10,
+    "unite": "m3",
+    "remplissage_actuel": "60%",
+    "etat": "en cours de remplissage"
+  },
+  "systeme": {
+    "alerte": "aucune",
+    "derniere_mise_a_jour": "2025-11-21T13:30:00Z",
+    "localisation": "etang sale, La Réunion"
+  }
+}
